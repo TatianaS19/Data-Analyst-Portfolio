@@ -12,7 +12,7 @@
 
 ## Skills
 
-- SQL(Oracle, Postgre), Python(Pandas, Seaborn), Excel
+- SQL(Oracle, Postgre), Python(Pandas, Seaborn, matplotlib), Excel
 - Superset, Power BI, Redash, YandexDatalens
 - Анализ и прогнозирование метрик, автоматизация отчетности, поиск аномалий
 - A/B тесты
