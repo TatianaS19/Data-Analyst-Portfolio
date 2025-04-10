@@ -1,5 +1,6 @@
 select user_id, toString(start_date) as start_date, toString(date) as date, age,city,country,os,source from
-
+#рассматриваем пользователей, которые впервые воспрользовались приложением 20 дней назад
+#таблица feed_actions это активность пользователей
 (select user_id, min(toDate(time)) as start_date
 from simulator_20250120.feed_actions
 group by user_id 
