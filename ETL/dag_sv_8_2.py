@@ -24,8 +24,8 @@ default_args = {
 
 schedule_interval = '0 11 * * *'
 
-chat_id = -938659451 
-my_token = '8108409746:AAGi4Lc-xjywqw4CrjWTIrTPAAJ7rbMP8iQ'
+chat_id = ???????
+my_token = ????????
 bot = telegram.Bot(token=my_token)
 
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
